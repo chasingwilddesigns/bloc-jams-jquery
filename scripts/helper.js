@@ -3,6 +3,7 @@ class Helper {
     player.playPause(song);
     const totalTime = player.getDuration();
   }
+  
 }
 
 const helper = new Helper();

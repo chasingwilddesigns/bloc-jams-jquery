@@ -15,6 +15,7 @@
     helper.playPauseAndUpdate(nextSong);
   });
 
+
   $('button#previous').on('click', function() {
     if (player.playState !== 'playing') { return; }
 
@@ -24,6 +25,7 @@
 
     const previousSong = album.songs[previousSongIndex];
     helper.playPauseAndUpdate(previousSong);
+    
   });
 
 }
